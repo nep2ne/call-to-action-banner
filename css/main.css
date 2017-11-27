@@ -13,6 +13,48 @@ html {
   width: 100%;
 }
 
+body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+  padding-top: .6rem;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 2em;
+  left: 50%;
+  max-width: 50em;
+  padding-left: 1.75em;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+.banner-content h2,
+.banner-content p {
+  margin: 0;
+}
+
+.btn {
+
+}
+
 .btn-big {
   font-size: 1.5rem;
 }
