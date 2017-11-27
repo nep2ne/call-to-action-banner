@@ -52,7 +52,13 @@ p {
 }
 
 .btn {
-
+  display: inline-block;
+  padding: .51em .75em;
+  background-color: #333;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.125rem;
+  text-decoration: none;
 }
 
 .btn-big {
